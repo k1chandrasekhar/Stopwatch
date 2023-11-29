@@ -1,0 +1,42 @@
+<!-- index.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Metadata for character set and viewport -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Link to external Bootstrap stylesheet -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+
+    <!-- Link to external stylesheet for styling -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Title of the page -->
+    <title>Stopwatch</title>
+</head>
+<body>
+    <!-- Main container for the app, centered and with text alignment -->
+    <div class="container text-center">
+
+        <!-- Heading of the app -->
+        <h1>Stopwatch</h1>
+
+        <!-- Container for displaying the timer -->
+        <div class="timer-container">
+            <span id="timer">00:00:00</span>
+        </div>
+
+        <!-- Buttons for controlling the stopwatch -->
+        <button class="btn btn-start mr-2" onclick="startStopwatch()">Start</button>
+        <button class="btn btn-stop mr-2" onclick="stopStopwatch()">Stop</button>
+        <button class="btn btn-reset" onclick="resetStopwatch()">Reset</button>
+    </div>
+
+    <!-- Link to external JavaScript file for functionality -->
+    <script src="script.js"></script>
+</body>
+</html>
