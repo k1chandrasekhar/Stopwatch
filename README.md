@@ -4,5 +4,5 @@ In this project, I have created a Stopwatch App using HTML, CSS, and vanilla Jav
 
 ## View My Stopwatch website 
 
-👉 [**View Stop**](https://k1chandrasekhar.github.io/Stopwatch/)
+👉 [**View StopWatch**](https://k1chandrasekhar.github.io/Stopwatch/)
 
